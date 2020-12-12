@@ -19,8 +19,9 @@
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
-    "@material-ui/core": "^4.11.2",
-    "@material-ui/icons": "^4.11.2",
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
