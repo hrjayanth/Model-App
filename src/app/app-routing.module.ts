@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
   { path: 'dashboard', component: LayoutComponent },
-  { path: 'login', component: LayoutComponent },
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: 'login', component: LoginComponent },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
 ];
 
 @NgModule({

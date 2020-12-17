@@ -8,12 +8,4 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'model-app';
-
-  constructor(private router: Router) {
-
-  }
-
-  public login(): void {
-    this.router.navigateByUrl('/dashboard');
-  }
 }
